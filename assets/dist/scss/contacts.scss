@@ -1,0 +1,207 @@
+header{
+    border-bottom: 2px solid #20a8d7;
+}
+
+.contacts{
+    padding: 25px 0 27px;
+    .contacts-content{
+        text-align: center;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        h2{
+            color: #323232;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 36px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+        p{
+            color: #323232;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 29px;
+        }
+        ul{
+            margin-bottom: 27px;
+            li{
+                color: #323232;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 20px;
+                padding-top: 35px;
+                position: relative;
+                margin-bottom: 15px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                i{
+                    top: 0;
+                    left: 50%;
+                    color: #323232;
+                    font-size: 20px;
+                    position: absolute;
+                    -webkit-transform: translate(-50%, 0);
+                    -moz-transform: translate(-50%, 0);
+                    -ms-transform: translate(-50%, 0);
+                    -o-transform: translate(-50%, 0);
+                    transform: translate(-50%, 0);
+                }
+                a{
+                    color: #323232;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    display: inline-block;
+                }
+            }
+        }
+        h4{
+            color: #323232;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 26px;
+            margin-bottom: 10px;
+        }
+        span{
+            display: block;
+            color: #646464;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            margin-bottom: 5px;
+        }
+    }
+    .maps{
+        .maps-item{
+            margin-bottom: 20px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        h5{
+            color: #000000;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 22px;
+        }
+        iframe{
+            width: 100%;
+            height: 354px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .contacts{
+        padding: 21px 0 27px;
+        .contacts-content{
+            text-align: left;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            ul{
+                li{
+                    padding-top: 0;
+                    margin-bottom: 10px;
+                    padding-left: 30px;
+                    i{
+                        top: 50%;
+                        left: 0;
+                        -webkit-transform: translate(0, -50%);
+                        -moz-transform: translate(0, -50%);
+                        -ms-transform: translate(0, -50%);
+                        -o-transform: translate(0, -50%);
+                        transform: translate(0, -50%);
+                    }
+                }
+            }
+            span {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contacts{
+        padding: 21px 0 96px;
+        .contacts-content {
+            ul{
+                margin-bottom: 15px;
+                -webkit-column-count: 2;
+                -moz-column-count: 2;
+                column-count: 2;
+                -webkit-column-gap: 30px;
+                -moz-column-gap: 30px;
+                column-gap: 30px;
+                li{
+                    margin-bottom: 25px;
+                }
+            }
+        }
+        .maps {
+            .maps-item {
+                margin: 0;
+                width: 48.6%;
+                float: left;
+                &:last-child{
+                    float: right;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .contacts{
+        padding: 21px 0 67px;
+        .contacts-content {
+            margin-bottom: 26px;
+            padding-right: 300px;
+            padding-bottom: 26px;
+            h2 {
+                margin-bottom: 14px;
+            }
+            p{
+                margin-bottom: 35px;
+            }
+            ul {
+                margin-bottom: 26px;
+                li {
+                    font-size: 18px;
+                    line-height: 22px;
+                    padding-left: 34px;
+                    margin-bottom: 30px;
+                    i {
+                        top: 46%;
+                        left: 2px;
+                    }
+                    a{
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+                }
+            }
+            h4{
+                margin-bottom: 23px;
+            }
+            span{
+                margin-bottom: 23px;
+            }
+        }
+    }
+
+}
+
+
+

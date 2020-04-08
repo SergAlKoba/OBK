@@ -1,0 +1,295 @@
+header{
+    border-bottom: 2px solid #20a8d7;
+}
+
+.delivery{
+    padding: 25px 0 27px;
+    .delivery-content{
+        text-align: center;
+        h2{
+            color: #323232;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 36px;
+            margin-bottom: 22px;
+            text-transform: uppercase;
+        }
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .mobile{
+            margin-bottom: 20px;
+        }
+        .desc{
+            display: none;
+        }
+        h4{
+            color: #323232;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 30px;
+            margin-bottom: 18px;
+        }
+        h6{
+            color: #323232;
+            padding: 0 20px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            margin-bottom: 18px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        ul{
+            li{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                margin-bottom: 15px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .text-item{
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            &:last-child{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+        }
+        .points {
+            margin-bottom: 42px;
+        }
+        .mail{
+            margin-bottom: 23px;
+            padding-bottom: 19px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            h4{
+                line-height: 37px;
+                margin-bottom: 32px;
+                img{
+                    width: 169px;
+                    display: block;
+                    margin: 10px auto 0;
+                }
+            }
+            .mobile {
+                margin-bottom: 18px;
+            }
+            ul {
+                li {
+                    margin-bottom: 18px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .payment-content{
+        text-align: center;
+        h2{
+            color: #323232;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 36px;
+            margin-bottom: 22px;
+            text-transform: uppercase;
+        }
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .mobile{
+            margin-bottom: 16px;
+        }
+        .desc{
+            display: none;
+        }
+        h4{
+            color: #323232;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 37px;
+            margin-bottom: 15px;
+        }
+        h6{
+            color: #323232;
+            padding: 0 20px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            margin-bottom: 18px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+        }
+        ul{
+            li{
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 32px;
+                margin-bottom: 15px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .text-item{
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            &:last-child{
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .delivery{
+        padding: 21px 0 40px;
+        .delivery-content{
+            text-align: left;
+            .mobile{
+                display: none;
+            }
+            .desc{
+                display: block;
+                margin-bottom: 20px;
+            }
+            h6{
+                padding: 0;
+            }
+            .points{
+                img{
+                    margin: 0;
+                    width: 48%;
+                    float: left;
+                }
+                .text{
+                    width: 48%;
+                    float: right;
+                }
+            }
+            .mail {
+                h4{
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
+                    img{
+                        margin-top: 0;
+                        margin-left: 20px;
+                        display: inline-block;
+                    }
+                }
+                ul {
+                    li {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+        .payment-content{
+            text-align: left;
+            .mobile{
+                display: none;
+            }
+            .desc{
+                display: block;
+                margin-bottom: 20px;
+            }
+            h6{
+                padding: 0;
+            }
+            .payment{
+                img{
+                    margin: 0;
+                    width: 48%;
+                    float: left;
+                }
+                .text{
+                    width: 48%;
+                    float: right;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .delivery{
+        padding: 21px 0 28px;
+        .delivery-content {
+            h2 {
+                margin-bottom: 42px;
+            }
+            .desc {
+                margin-bottom: 44px;
+            }
+            .points {
+                margin-bottom: 67px;
+                img {
+                    width: 49%;
+                }
+                .text {
+                    width: 48.5%;
+                    margin-top: 13px;
+                }
+            }
+            .mail{
+                margin-bottom: 44px;
+                padding-bottom: 41px;
+                h4 {
+                    margin-bottom: 41px;
+                    img {
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+        .payment-content {
+            h2 {
+                margin-bottom: 42px;
+            }
+            p {
+                line-height: 30px;
+            }
+            .text-item {
+                margin-bottom: 25px;
+                padding-bottom: 22px;
+            }
+            .payment{
+                margin-bottom: 67px;
+                img {
+                    width: 49%;
+                }
+                .text {
+                    width: 48.5%;
+                    margin-top: -10px;
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+
+}
+
+
+

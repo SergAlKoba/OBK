@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ОВК</title>
+    <meta name="cmsmagazine" content="5a7189a28fb3dc68238dbdb44c9ea99c" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/personal-area.css">
+</head>
+
+<body>
+
+    <div class="menu-mobile">
+        <span class="close"></span>
+        <nav>
+            <ul>
+                <li class="active"><a href="catalog.html">Каталог товаров</a></li>
+                <li><a href="design-ideas.html">Идеи дизайна</a></li>
+                <li><a href="trade-marks.html">Торговые марки</a></li>
+                <li><a href="delivery.html">Доставка и оплата</a></li>
+                <li><a href="exchange.html">Возврат и обмен</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="blog.html">Блог</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header>
+        <div class="header-top">
+            <div class="container clearfix">
+                <a class="logo" href="index.html"><img src="../img/logo.png" alt=""></a>
+                <div class="top-login clearfix">
+                    <span class="time"><i class="icon-time-line"></i>Приём заказов,пн-вс 9:00-18:00</span>
+                    <ul class="tel">
+                        <li><a href="tel:0633095050"><i class="icon-phone-line"></i>0 63 309 50 50</a></li>
+                        <li><a href="tel:0993095050"><i class="icon-phone-line"></i>0 99 309 50 50</a></li>
+                        <li><a href="tel:0963095050"><i class="icon-phone-line"></i>0 96 309 50 50</a></li>
+                    </ul>
+                    <a href="personal-area.html" class="login"><i class="icon-user-line"></i>Войти</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container clearfix">
+                <span class="modile-menu"><i class="icon-menu-1"></i>Меню</span>
+                <span class="desc-menu"><i class="icon-menu-1"></i></span>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="catalog.html">Каталог товаров</a></li>
+                        <li><a href="design-ideas.html">Идеи дизайна</a></li>
+                        <li><a href="trade-marks.html">Торговые марки</a></li>
+                        <li><a href="delivery.html">Доставка и оплата</a></li>
+                        <li><a href="exchange.html">Возврат и обмен</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                    </ul>
+                </nav>
+                <!-- На елемент basket добавляетьса класс complete если в карзине есть какойто товар -->
+                <ul class="baskets">
+                    <li><a class="search" href="javascript:void(0)"><i class="icon-magnifying-glass-2"></i></a></li>
+                    <li><a class="comparison" href="javascript:void(0)"><i class="icon-heart"></i></a></li>
+                    <li><a class="basket complete" href="basket.html"><span></span><i class="icon-shopping-cart-2"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="personal-area">
+        <div class="container">
+            <div class="bread-crumbs">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><span>Личный кабинет </span></li>
+                </ul>
+            </div>
+            <div class="personal-area-content">
+                <div class="clearfix">
+                    <div class="personal-area-tabs">
+                        <h3>Личный кабинет</h3>
+                        <ul>
+                            <li data-tab="personal-data" class="active"><a href="javascript:void(0)">Профиль</a></li>
+                            <li data-tab="my-orders"><a href="javascript:void(0)">Мои заказы</a></li>
+                            <li data-tab="favorite"><a href="javascript:void(0)">Избранное</a></li>
+                            <li data-tab="order-archive"><a href="javascript:void(0)">Архив заказов</a></li>
+                            <li><a href="index.html">Выйти</a></li>
+                        </ul>
+                    </div>
+                    <div class="tabs-content personal-data active">
+                        <div class="title">
+                            <h3>Личные данные</h3>
+                            <a href="javascript:void(0)"><span>Редактировать</span><i class="icon-writing"></i></a>
+                        </div>
+                        <div class="personal-data-content clearfix">
+                            <ul class="clearfix">
+                                <li><span>Имя: </span>
+                                    <p>Daniil</p>
+                                </li>
+                                <li><span>Фамилия: </span>
+                                    <p>Degtyarenko</p>
+                                </li>
+                                <li><span>Электронная почтa:</span>
+                                    <p>Degtyarenkodaniil@gmail.com</p>
+                                </li>
+                                <li><span>Телефон :</span>
+                                    <p>8 057 237 87 85</p>
+                                </li>
+                                <li><span>Город:</span>
+                                    <p>Харьков</p>
+                                </li>
+                                <li><span>Адрес доставки:</span>
+                                    <p>ул.Сумская 17 B</p>
+                                </li>
+                            </ul>
+                            <form>
+                                <label>Дисконтная карта :</label>
+                                <div class="input">
+                                    <input type="text">
+                                    <a href="javascript:void(0)"><i class="icon-writing"></i></a>
+                                </div>
+                                <label>Изменить пароль:</label>
+                                <div class="input">
+                                    <input type="text">
+                                    <a href="javascript:void(0)"><i class="icon-save-file-option"></i></a>
+                                </div>
+                                <button><span>Сохранить</span></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="tabs-content my-orders">
+                        <div class="title">
+                            <h3>Мои заказы</h3>
+                        </div>
+                        <div class="my-orders-items">
+                            <div class="my-orders-item clearfix">
+                                <img src="../img/my-orders-img.png" alt="">
+                                <span class="number">№6257</span>
+                                <span class="data">13.08.2019</span>
+                                <span class="quantity">1 шт. на</span>
+                                <span class="sum">6 300 грн</span>
+                                <span class="status">Ожидание</span>
+                                <a href="javascript:void(0)">Просмотр</a>
+                            </div>
+                            <div class="my-orders-content">
+                                <div class="payment">
+                                    <p><strong>Оплата:</strong> Оплата при получении товара</p>
+                                    <p><strong>Доставка:</strong> Харьков - Пункт выдачи заказов г.Харьков ул. Полтавский шлях 14</p>
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="product clearfix">
+                                        <img src="../img/my-orders-img.png" alt="">
+                                        <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                    </div>
+                                    <div class="sums">
+                                        <p>Сумма: 2 199 грн</p>
+                                        <p>Харьков - Пункт выдачи заказов: 0 грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-orders-items">
+                            <div class="my-orders-item clearfix">
+                                <img src="../img/my-orders-img.png" alt="">
+                                <span class="number">№6257</span>
+                                <span class="data">13.08.2019</span>
+                                <span class="quantity">1 шт. на</span>
+                                <span class="sum">6 300 грн</span>
+                                <span class="status">Ожидание</span>
+                                <a href="javascript:void(0)">Просмотр</a>
+                            </div>
+                            <div class="my-orders-content">
+                                <div class="payment">
+                                    <p><strong>Оплата:</strong> Оплата при получении товара</p>
+                                    <p><strong>Доставка:</strong> Харьков - Пункт выдачи заказов г.Харьков ул. Полтавский шлях 14</p>
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="product clearfix">
+                                        <img src="../img/my-orders-img.png" alt="">
+                                        <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                    </div>
+                                    <div class="sums">
+                                        <p>Сумма: 2 199 грн</p>
+                                        <p>Харьков - Пункт выдачи заказов: 0 грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-orders-items">
+                            <div class="my-orders-item clearfix">
+                                <img src="../img/my-orders-img.png" alt="">
+                                <span class="number">№6257</span>
+                                <span class="data">13.08.2019</span>
+                                <span class="quantity">1 шт. на</span>
+                                <span class="sum">6 300 грн</span>
+                                <span class="status">Ожидание</span>
+                                <a href="javascript:void(0)">Просмотр</a>
+                            </div>
+                            <div class="my-orders-content">
+                                <div class="payment">
+                                    <p><strong>Оплата:</strong> Оплата при получении товара</p>
+                                    <p><strong>Доставка:</strong> Харьков - Пункт выдачи заказов г.Харьков ул. Полтавский шлях 14</p>
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="product clearfix">
+                                        <img src="../img/my-orders-img.png" alt="">
+                                        <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                    </div>
+                                    <div class="sums">
+                                        <p>Сумма: 2 199 грн</p>
+                                        <p>Харьков - Пункт выдачи заказов: 0 грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-content favorite">
+                        <div class="title">
+                            <h3>Избранное</h3>
+                        </div>
+                        <div class="product-item clearfix">
+                            <a class="like active" href="javascript:void(0)"><i class="icon-heart"></i></a>
+                            <div class="product-img">
+                                <div class="img">
+                                    <img src="../img/product-item-img.png" alt="">
+                                </div>
+                                <span><i></i> Удалить</span>
+                            </div>
+                            <div class="product-text">
+                                <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                <ul>
+                                    <li>Артикул: 7603</li>
+                                    <li>Производитель: GROHE</li>
+                                </ul>
+                                <p>Этот смеситель для мойки из коллекции GROHE Minta существенно облегчит Вам работу на кухне за счет своей универсальности и удобства в обращении. </p>
+                                <div class="clearfix">
+                                    <strong>6 299 грн</strong>
+                                    <a class="buy" href="product.html"><span>Купить</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item clearfix">
+                            <a class="like active" href="javascript:void(0)"><i class="icon-heart"></i></a>
+                            <div class="product-img">
+                                <div class="img">
+                                    <img src="../img/product-item-img.png" alt="">
+                                </div>
+                                <span><i></i> Удалить</span>
+                            </div>
+                            <div class="product-text">
+                                <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                <ul>
+                                    <li>Артикул: 7603</li>
+                                    <li>Производитель: GROHE</li>
+                                </ul>
+                                <p>Этот смеситель для мойки из коллекции GROHE Minta существенно облегчит Вам работу на кухне за счет своей универсальности и удобства в обращении. </p>
+                                <div class="clearfix">
+                                    <strong>6 299 грн</strong>
+                                    <a class="buy" href="product.html"><span>Купить</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-content order-archive">
+                        <div class="title">
+                            <h3>Архив заказов</h3>
+                        </div>
+                        <div class="order-archive-items">
+                            <div class="order-archive-item clearfix">
+                                <img src="../img/my-orders-img.png" alt="">
+                                <span class="number">№6257</span>
+                                <span class="data">13.08.2019</span>
+                                <span class="quantity">1 шт. на</span>
+                                <span class="sum">6 300 грн</span>
+                                <span class="status">Ожидание</span>
+                                <a href="javascript:void(0)">Просмотр</a>
+                            </div>
+                            <div class="order-archive-content">
+                                <div class="payment">
+                                    <p><strong>Оплата:</strong> Оплата при получении товара</p>
+                                    <p><strong>Доставка:</strong> Харьков - Пункт выдачи заказов г.Харьков ул. Полтавский шлях 14</p>
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="product clearfix">
+                                        <img src="../img/my-orders-img.png" alt="">
+                                        <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                    </div>
+                                    <div class="sums">
+                                        <p>Сумма: 2 199 грн</p>
+                                        <p>Харьков - Пункт выдачи заказов: 0 грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-archive-items">
+                            <div class="order-archive-item clearfix">
+                                <img src="../img/my-orders-img.png" alt="">
+                                <span class="number">№6257</span>
+                                <span class="data">13.08.2019</span>
+                                <span class="quantity">1 шт. на</span>
+                                <span class="sum">6 300 грн</span>
+                                <span class="status">Ожидание</span>
+                                <a href="javascript:void(0)">Просмотр</a>
+                            </div>
+                            <div class="order-archive-content">
+                                <div class="payment">
+                                    <p><strong>Оплата:</strong> Оплата при получении товара</p>
+                                    <p><strong>Доставка:</strong> Харьков - Пункт выдачи заказов г.Харьков ул. Полтавский шлях 14</p>
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="product clearfix">
+                                        <img src="../img/my-orders-img.png" alt="">
+                                        <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                    </div>
+                                    <div class="sums">
+                                        <p>Сумма: 2 199 грн</p>
+                                        <p>Харьков - Пункт выдачи заказов: 0 грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-archive-items">
+                            <div class="order-archive-item clearfix">
+                                <img src="../img/my-orders-img.png" alt="">
+                                <span class="number">№6257</span>
+                                <span class="data">13.08.2019</span>
+                                <span class="quantity">1 шт. на</span>
+                                <span class="sum">6 300 грн</span>
+                                <span class="status">Ожидание</span>
+                                <a href="javascript:void(0)">Просмотр</a>
+                            </div>
+                            <div class="order-archive-content">
+                                <div class="payment">
+                                    <p><strong>Оплата:</strong> Оплата при получении товара</p>
+                                    <p><strong>Доставка:</strong> Харьков - Пункт выдачи заказов г.Харьков ул. Полтавский шлях 14</p>
+                                </div>
+                                <div class="text clearfix">
+                                    <div class="product clearfix">
+                                        <img src="../img/my-orders-img.png" alt="">
+                                        <h4>Смеситель с выдвижным изливом <span>MINTA 32918000</span></h4>
+                                    </div>
+                                    <div class="sums">
+                                        <p>Сумма: 2 199 грн</p>
+                                        <p>Харьков - Пункт выдачи заказов: 0 грн</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container clearfix">
+                <div class="form">
+                    <span>Подписаться на рассылку:</span>
+                    <form class="clearfix">
+                        <input type="text" placeholder="Введите ваш е-майл">
+                        <button>Отправить</button>
+                    </form>
+                </div>
+                <div class="social">
+                    <span>Следите за нами:</span>
+                    <ul>
+                        <li><a target="_blank" href="javascript:void(0)"><i class="icon-vk"></i></a></li>
+                        <li><a target="_blank" href="javascript:void(0)"><i class="icon-facebook-logo"></i></a></li>
+                        <li><a target="_blank" href="javascript:void(0)"><i class="icon-instagram-logo"></i></a></li>
+                        <li><a target="_blank" href="javascript:void(0)"><i class="icon-odnoklassniki-logo"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="container clearfix">
+                <nav>
+                    <ul>
+                        <li><a href="exchange.html">Возврат и обмен</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                        <li><a href="blog.html">Блог</a></li>
+                        <li><a href="catalog.html">Каталог товаров</a></li>
+                        <li><a href="design-ideas.html">Идеи дизайна</a></li>
+                        <li><a href="trade-marks.html">Торговые марки</a></li>
+                        <li><a href="delivery.html">Доставка и оплата</a></li>
+                    </ul>
+                </nav>
+                <ul class="social">
+                    <li><i class="icon-address"></i>Харьков ул. Полтавский Шлях 14</li>
+                    <li><i class="icon-passage-of-time"></i>Приём заказов,пн-вс 9:00-18:00</li>
+                    <li><i class="icon-message-closed-envelope"></i><a href="maleto:Ovc-santeh-grup@gmail.com">Ovc-santeh-grup@gmail.com</a></li>
+                    <li><i class="icon-phone-line"></i><a href="tel:0963095050">0 96 309 50 50</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>ОВК-Сантех Комплекс &#169; 2019 г.</p>
+    </footer>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.mask.min.js"></script>
+    <script src="../js/jquery.matchHeight.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/jcf.min.js"></script>
+    <script src="../js/jcf.select.min.js"></script>
+    <script src="../js/jcf.checkbox.min.js"></script>
+    <script src="../js/script.min.js"></script>
+    <script src="../js/personal-area.min.js"></script>
+</body>
+
+</html>

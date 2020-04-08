@@ -1,0 +1,114 @@
+header{
+    border-bottom: 2px solid #20a8d7;
+}
+
+.exchange{
+    padding: 25px 0 27px;
+    .exchange-content{
+        text-align: center;
+        h2{
+            color: #323232;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 36px;
+            margin-bottom: 22px;
+            text-transform: uppercase;
+        }
+        img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .mobile{
+            margin-bottom: 20px;
+        }
+        .desc{
+            display: none;
+        }
+        .text{
+            margin-bottom: 15px;
+        }
+        p{
+            color: #323232;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 30px;
+            padding-bottom: 10px;
+            i{
+                font-style: italic;
+                display: inline-block;
+            }
+            a{
+                color: #000000;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 30px;
+                display: inline-block;
+            }
+        }
+        h4{
+            color: #323232;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 37px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .exchange{
+        padding: 21px 0 27px;
+        .exchange-content{
+            text-align: left;
+            .mobile{
+                display: none;
+            }
+            .desc{
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .exchange{
+        .exchange-content {
+            .desc {
+                margin-bottom: 30px;
+            }
+            .text{
+                margin-bottom: 24px;
+            }
+            p {
+                i {
+                    padding-bottom: 6px;
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .exchange{
+        padding: 21px 0 57px;
+        .exchange-content {
+            h2 {
+                margin-bottom: 42px;
+            }
+            .desc {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+}
+
+
+
