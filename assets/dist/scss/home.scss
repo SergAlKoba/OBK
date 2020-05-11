@@ -1,9 +1,28 @@
 @import "libs/slick";
 
+ul,ol{
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.fade{
+    display: none;
+}
+
+.fade.in{
+    display: block;
+}
+
 .banner{
     overflow: hidden;
     .banner-item{
         text-align: center;
+        img{
+            width: 100%;
+        }
         .title{
             position: relative;
             margin: 0 -15px 22px;
@@ -120,6 +139,7 @@
                 color: #ffffff;
                 font-size: 18px;
                 font-weight: 400;
+                margin-bottom: 0;
                 line-height: 22px;
                 position: relative;
                 padding-right: 15px;
@@ -587,8 +607,8 @@
                 }
                 i{
                     opacity: 0.5;
-                    color: #ffffff;
                     font-size: 30px;
+                    color: #343434;
                     -webkit-transition: all 0.5s;
                     -moz-transition: all 0.5s;
                     -ms-transition: all 0.5s;
@@ -605,7 +625,7 @@
         }
         .banner-item {
             position: relative;
-            padding: 80px 0 80px;
+            // padding: 80px 0 80px;
             .banner-bg{
                 top: 0;
                 left: 0;
@@ -781,7 +801,7 @@
 
     .banner {
         .banner-item {
-            padding: 120px 0 120px;
+            //padding: 120px 0 120px;
             .banner-text {
                 .title {
                     h2 {
@@ -822,26 +842,34 @@
                 justify-content: space-between;
                 li{
                     flex-grow: 1;
-                    cursor: pointer;
-                    color: #323232;
-                    font-size: 13px;
-                    font-weight: 400;
-                    line-height: 20px;
-                    padding: 10px 10px;
                     display: inline-block;
-                    -webkit-transition: all 0.5s;
-                    -moz-transition: all 0.5s;
-                    -ms-transition: all 0.5s;
-                    -o-transition: all 0.5s;
-                    transition: all 0.5s;
+                    a{
+                        width: 100%;
+                        cursor: pointer;
+                        color: #323232;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        padding: 10px 10px;
+                        display: inline-block;
+                        -webkit-transition: all 0.5s;
+                        -moz-transition: all 0.5s;
+                        -ms-transition: all 0.5s;
+                        -o-transition: all 0.5s;
+                        transition: all 0.5s;
+                    }
                     &:hover{
-                        color: #ffffff;
-                        background-color: #20a8d7;    
+                        a{
+                            color: #ffffff;
+                            background-color: #20a8d7;
+                        }
                     }
                 }
                 .active{
-                    color: #ffffff;
-                    background-color: #20a8d7;
+                    a{
+                        color: #ffffff;
+                        background-color: #20a8d7;
+                    }
                 }
             }
         }
@@ -891,7 +919,7 @@
             }
         }
         .banner-item {
-            padding: 207px 0 205px;
+            //padding: 207px 0 205px;
             .banner-text {
                 padding: 45px 40px 52px;
                 .point1 {
@@ -953,9 +981,11 @@
             margin-bottom: 47px;
             ul {
                 li {
-                    font-size: 18px;
-                    line-height: 22px;
-                    padding: 16px 10px 17px;
+                    a{
+                        font-size: 18px;
+                        line-height: 22px;
+                        padding: 16px 10px 17px;
+                    }
                 }
             }
         }

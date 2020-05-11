@@ -18,6 +18,12 @@ $(document).ready(function(){
         $('.menu-mobile').addClass('active');
     });
 
+    if($(window).scrollTop() >= 50){
+        $('header').addClass('active');
+    }else{
+        $('header').removeClass('active');
+    }
+
 });
 
 $(window).resize(function(){
@@ -31,4 +37,12 @@ $(window).resize(function(){
 
 });
 
+$(window).scroll(function(){
 
+    if($(window).scrollTop() >= 50){
+        $('header').addClass('active');
+    }else{
+        $('header').removeClass('active');
+    }
+
+});

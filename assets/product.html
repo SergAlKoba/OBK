@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.png">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/product.css">
 </head>
 <body>
@@ -101,7 +102,10 @@
                             </div>
                         </div>
                         <div class="delivery"><span><i class="icon-truck"></i> Бесплатная доставка</span></div>
-                        <a href="javascript:void(0)"><span>Купить</span></a>
+                        <div class="button-cart">
+                            <a id="button-cart" href="javascript:void(0)" data-loading-text="Загрузка..."><span>Купить</span></a>
+                            <button type="button" data-toggle="tooltip" class="btn btn-default" title="" onclick="wishlist.add('55');" data-original-title="В закладки"><i class="icon-heart"></i></button>
+                        </div>
                     </div>
                 </div>
             </div>

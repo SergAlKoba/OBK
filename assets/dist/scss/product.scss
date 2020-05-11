@@ -1,6 +1,14 @@
 @import "libs/slick";
 @import "libs/responsive-tabs";
 
+ul,ol{
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 header{
     border-bottom: 2px solid #20a8d7;
 }
@@ -278,6 +286,31 @@ header{
                                 -ms-transform: translate(0, -50%);
                                 -o-transform: translate(0, -50%);
                                 transform: translate(0, -50%);
+                            }
+                        }
+                    }
+                    .button-cart{
+                        display: flex;
+                        align-items: center;
+                        button{
+                            cursor: pointer;
+                            color: #4e4848;
+                            margin-left: 10px;
+                            text-shadow: none;
+                            background-image: none;
+                            outline: none !important;
+                            border-color: transparent;
+                            box-shadow: none !important;
+                            background-color: transparent;
+                            &:hover{
+                                i{
+                                    color: #20a8d7;
+                                }
+                            }
+                            i{
+                                font-size: 20px;
+                                color: #4e4848;
+                                transition: all 0.5s;
                             }
                         }
                     }
@@ -908,10 +941,12 @@ header{
                             display: inline-block;
                             vertical-align: middle;
                         }
+                        .button-cart{
+                            margin: 40px 0 0;
+                        }
                         a{
                             width: auto;
                             display: table;
-                            margin: 40px 0 0;
                             padding: 13px 50px 13px;
                         }
                     }
@@ -1036,10 +1071,12 @@ header{
                                 padding-right: 20px;
                             }
                         }
+                        .button-cart{
+                            margin: 45px 0 0;
+                        }
                         a {
                             width: auto;
                             display: table;
-                            margin: 45px 0 0;
                             padding: 13px 60px 13px;
                         }
                     }

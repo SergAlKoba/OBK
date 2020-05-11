@@ -49,6 +49,10 @@ ul li,ol li{
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .clearfix{
   &:after {
     content: " ";

@@ -1,5 +1,13 @@
 @import "libs/slick";
 
+ul,ol{
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 header{
     border-bottom: 2px solid #20a8d7;
 }
@@ -433,6 +441,8 @@ header{
                 }
             }
             .sorting{
+                z-index: 3;
+                position: relative;
                 text-align: center;
                 margin-bottom: 15px;
                 p{
