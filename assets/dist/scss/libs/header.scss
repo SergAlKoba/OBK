@@ -97,11 +97,11 @@ header{
     z-index: 9;
     width: 100%;
     position: fixed;
+    transition: all 0.5s;
 }
 
 header.active{
     transform: translate(0, -51px);
-    transition: all 0.5s;
 }
 
 .header-top{
